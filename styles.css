@@ -1,0 +1,55 @@
+html{
+    position: relative;
+}
+#navbar{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+#main-doc{
+    position: absolute;
+    left: 320px;
+}
+
+code{
+    display: block;
+    background-color: gainsboro;
+    width: 50%;
+    padding: 10px 5px;
+}
+tr{
+    text-align: left;
+}
+
+th{
+    border: solid;
+    border-color: grey;
+    border-top: 5px;
+    padding: 10px 0 10px 10px;
+}
+#nav_header{
+    position: relative;
+    border-left: none;
+    border-right: none;
+    left: 10px;
+}
+a{
+    color: gray;
+}
+a:hover{
+    color: blueviolet;
+}
+main header{
+    color: blueviolet;
+    font-size: 30px;
+}
+@media (max-width: 900px){
+    #navbar{
+        width: 150px;
+    }
+    #main-doc{
+        left: 170px;
+    }
+
+}
